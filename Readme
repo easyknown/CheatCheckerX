@@ -1,0 +1,45 @@
+CheatCheckerX
+
+Plugin Name: CheatCheckerX
+Version(s): 1.19-1.20.5
+Platform: Paper Bukkit
+
+Description:
+CheatCheckerX is a powerful Minecraft plugin designed to help server administrators identify and manage players who may be cheating. With a range of commands, CheatCheckerX provides precise control over player actions and inventory, ensuring a fair and enjoyable gaming experience for all. Customize the plugin to fit your server's style with configurable prefixes and colorful messages.
+
+Features:
+- Fling Players: Launch a player 6 blocks into the air with /ccx fling <player>.
+- Freeze Players: Prevent a player from moving using /ccx freeze <player>.
+- Unfreeze Players: Allow a previously frozen player to move with /ccx unfreeze <player>.
+- Clear Inventory: Completely clear a player's inventory with /ccx clear <player>.
+- Randomize Inventory: Randomly shuffle a player's inventory using /ccx randomize <player>.
+- Speed Check: Display the effects currently applied to a player with /ccx speecheck <player>.
+- Ping Check: Show the ping of a player to the command executor with /ccx ping <player>.
+- Reload Plugin: Reload the plugin configurations and settings using /ccx reload.
+- Help Command: Display a list of all available commands with /ccx help.
+
+Configuration:
+Customize your experience with the config.yml file, allowing you to set custom prefixes and colorful messages for all plugin notifications and commands.
+
+Installation:
+1. Download the CheatCheckerX plugin.
+2. Place the plugin jar file into your server's plugins folder.
+3. Start or restart your server to load the plugin.
+4. Configure the plugin by editing the config.yml file located in the plugins/CheatCheckerX directory.
+
+Permissions:
+- ccx.fling - Permission to use the fling command.
+- ccx.freeze - Permission to freeze players.
+- ccx.unfreeze - Permission to unfreeze players.
+- ccx.clear - Permission to clear a player's inventory.
+- ccx.randomize - Permission to randomize a player's inventory.
+- ccx.speecheck - Permission to check a player's effects.
+- ccx.ping - Permission to check a player's ping.
+- ccx.reload - Permission to reload the plugin.
+- ccx.help - Permission to view the help command.
+
+| Minecraft Version | Status  |
+|-------------------|---------|
+| 1.18              | &#x1F7E2; |
+| 1.19              | &#x1F7E2; |
+| 1.20              | &#x1F7E2; |
